@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.containor{
+    width: 90%;
+    height: 400px;
+    margin-inline:auto;
+    /* border: 1px solid black; */
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: pink; */
+}
+.class{
+    /* border: 1px solid black; */
+    width: 550px;
+    height: 150px;
+    display: flex;
+    column-gap: 15px;
+    row-gap: 15px;
+}
